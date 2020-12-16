@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Intro.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE root SYSTEM "Intro.dtd">
+
+    <root>
+    ...
+    </root>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT root (infoCliente|infoPaquete|entrega)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT infoCliente (nombre|apellido)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT apellido (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT infoPaquete (tipo|marca)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tipo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT marca (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT entrega (direccion|edificion|piso|departamento|fecha|hora)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT direccion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT edificion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT piso (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT departamento (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fecha (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT hora (#PCDATA)>

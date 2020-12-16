@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    
+    <datosClientes id="01">
+        
+        <nombre>Dilan</nombre>
+        <apellido>Altamirano</apellido>
+        <telefono>2355675</telefono>
+        
+        <detalle date="2020-12-09" >Desarrollador</detalle>
+        
+        <consum></consum>
+        
+        
+        <direccion>Quito</direccion>
+       
+    </datosClientes>
+    
+    <datosClientes id="02">
+        
+         
+        <nombre>Danny </nombre>
+        <apellido>Guañuna</apellido>
+        <telefono>2355094</telefono>
+        <detalle date="2020-12-09" >Desarrollador</detalle>
+        <direccion>Quito</direccion>
+        
+       
+    </datosClientes>
+    
+</root>

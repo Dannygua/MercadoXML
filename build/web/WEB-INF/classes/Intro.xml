@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<root>
+    
+    <infoCliente>
+       
+        <nombre> Juan </nombre>
+        <apellido> Artiaga </apellido>
+        
+    </infoCliente>
+    
+    <infoPaquete>
+       
+        <tipo>Television</tipo>
+        <marca> TCL</marca>
+           
+
+    </infoPaquete>
+    <entrega>
+        
+        <direccion>calle 12 de octubre</direccion>
+        <edificion>UNIQUE</edificion>
+        <piso>tercero</piso>
+        <departamento>A</departamento>
+        <fecha>18-10-2020</fecha>
+        <hora>18:00</hora>
+        
+    </entrega>
+    
+</root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Verano>
+    
+    <Curso id="01">
+        
+        <Nombre>Introduccion a HTML</Nombre>
+        <Horas>20</Horas>
+        <Plaza>20</Plaza>
+        <Horarios>09:00 - 13:00</Horarios>
+       
+    </Curso>
+    
+        <Curso id="02">
+        
+        <Nombre>CSS Avanzado</Nombre>
+        <Horas>40</Horas>
+        <Plaza>15</Plaza>
+        <Horarios>06:00 - 20:00</Horarios>
+
+    
+    </Curso>
+    
+        <Curso id="03">
+        
+        <Nombre>Taller de Utilidad</Nombre>
+        <Horas>40</Horas>
+        <Plaza>10</Plaza>
+        <Horarios>08:30 - 12:30</Horarios>
+       
+    </Curso>
+    
+    
+        <Curso id="04">
+        
+        <Nombre>Introduccion de usabilidad</Nombre>
+        <Horas>60</Horas>
+        <Plaza>20</Plaza>
+        <Horarios>08:30 - 12:30</Horarios>
+       
+    </Curso>
+    
+</Verano>
